@@ -1,0 +1,24 @@
+{
+  "name": "smart_device_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailsaid2001/firebase_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailsaid2001/firebase_learning/issues"
+  },
+  "homepage": "https://github.com/ismailsaid2001/firebase_learning#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.0.0"
+  }
+}
