@@ -42,10 +42,10 @@ void sendCallback(SendStatus info);
 
 /* 3. Define the RTDB URL */
 #define DATABASE_URL "https://projettpsmartdevice-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
-FirebaseData fbdo;
+#define FirebaseData fbdo;
 
-FirebaseAuth auth;
-FirebaseConfig config;
+#define FirebaseAuth auth;
+#define FirebaseConfig config;
 String main="";
 
 #include "Wire.h"
@@ -81,11 +81,6 @@ Serial.begin(115200);
   Serial.println();
    // Set the SMTP Server Email host, port, account and password
   sendingMail();
-
-
-
-
-
 
 
 
